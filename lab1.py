@@ -11,9 +11,14 @@ def age_finder(born):
  
     return age
 
+def Helloworld():
+    print("hello world!")
+
 if __name__ == '__main__':
     year_born = int(input("What year were you born?: "))
     month_born = int(input("What month were you born?: "))
     day_born = int(input("What day were you born?: "))
     age = age_finder(date(year_born,month_born,day_born))
     print("\nyou are ",age," years old")
+
+    Helloworld()
